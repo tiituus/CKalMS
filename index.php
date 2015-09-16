@@ -6,5 +6,5 @@
     Welcome to <a href="https://github.com/theel0ja/CKalMS">CKalMS</a>!
   </p>
 <?php
-  include_once "includes/bottom.php";
+  bottom();
 ?>
