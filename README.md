@@ -1,2 +1,2 @@
 # CKalMS
-Finnish CMS.
+A PHP powered CMS.
