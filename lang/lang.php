@@ -1,6 +1,6 @@
 <?php
-  $lang = $_SESSION["lang"];
-  $langfile = $lang.".lng";
+  $langses = $_SESSION["lang"];
+  $langfile = $langses.".lng";
   
-  /* here comes langparser... */
+  /* here comes langparser to $lang["home"]; etc.. */
 ?>
