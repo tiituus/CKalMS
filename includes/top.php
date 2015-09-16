@@ -1,3 +1,6 @@
+<?php
+	include_once "settings.php";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,11 +9,13 @@
     
     <title><?php echo $title; ?></title>
     
+    <link rel="stylesheet" href="<?php echo $pageurl; ?>/themes/<?php echo $themename; ?>/style.css" type="text/css" />
+    
     <!-- Internet Explorer Bug Fixing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-		<!--[if lt IE 9]>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
   </head>
   <body>
