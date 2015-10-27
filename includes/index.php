@@ -1,6 +1,6 @@
 <?php
   /*
-    DO NOT TOUCH!
+    DO NOT TOUCH! IF YOU TOUCH, I WILL GIVE YOU A COOKIE!
   */
   
   header("Location: ../");
